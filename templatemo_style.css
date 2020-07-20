@@ -11,7 +11,6 @@ body {
 	line-height: 1.5em;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	color: #686f76;
 	background-image: url(img/Body4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -395,5 +394,55 @@ footer {
 	text-align: center;
 }
 
-
 /* ----- End of Footer ----- */
+.wrapper {
+	width: 70%;
+	max-width: 1000px;
+	margin: 1rem auto;
+	background-color: #58667359;
+  }
+  .wrapper .img-grid > img {
+	max-width: 19em;
+	height: 14em;
+	margin-bottom: 1.50em;
+  }
+​
+  .wrapper > h2 {
+	margin-top: 3em;
+	margin-bottom: 2.50em;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: bold;
+  }
+  h2 {
+	color: #3c5a99;
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin-bottom: 2.70em;
+	margin-top: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+  }
+  .img-grid {
+	display: grid;
+	justify-items: center;
+	grid-gap: 0.6rem;
+  }
+  .img-grid > img {
+	width: 11.50em;
+	max-height: 11em;
+	max-width: 100%;
+	padding: 0.2rem;
+	border: 1px solid #555;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+	-webkit-transition: .2s ease;
+	transition: transform .2s;
+  }
+  .img-grid > img:hover {
+  -webkit-transform: scale(1.50);
+  transform: scale(1.50);
+  }
+.wrapper > h2 {
+	margin-top: 3.50em;
+  }
+  /*  =========   ##***** End of All Gallery *****##  =========  */
